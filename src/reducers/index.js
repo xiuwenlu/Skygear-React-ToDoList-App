@@ -1,10 +1,10 @@
 import {combineReducers} from 'redux';
-import UserReducer from './users-reducer';
-import ActiveUserReducer from './reducer-active-user'
+import AssignmentReducer from './assignment-reducer';
+import ActiveAssignmentReducer from './reducer-active-assignment'
 
 const allReducers = combineReducers({
-    users: UserReducer,
-    activeUser: ActiveUserReducer
+    assignments: AssignmentReducer,
+    activeAssignment: ActiveAssignmentReducer
 });
 
 export default allReducers;

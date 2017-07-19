@@ -1,9 +1,9 @@
 //this is an action creator function
-export const selectUser = (user) => {
-    console.log('You clicked on user:', user.first);
+export const selectAssignment = (assignment) => {
+    console.log('You clicked on assignment:', assignment.first);
     return {
-        type: 'USER_SELECTED',
-        payload: user
+        type: 'ASSIGNMENT_SELECTED',
+        payload: assignment
     };
 };
 

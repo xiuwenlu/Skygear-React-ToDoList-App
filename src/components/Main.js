@@ -2,18 +2,18 @@ require('normalize.css/normalize.css');
 require('styles/App.css');
 
 import React from 'react';
-import UserList from './user-list';
-import UserDetail from './user-detail';
+import AssignmentList from './assignment-list';
+import AssignmentDetail from './assignment-detail';
 
 class AppComponent extends React.Component {
   render() {
     return (
       <div>
-        <h2> Username List: </h2>
-        <UserList />
+        <h2> Assignment List: </h2>
+        <AssignmentList />
         <hr/>
-        <h2> User Details: </h2>
-        <UserDetail />
+        <h2> Assignment Details: </h2>
+        <AssignmentDetail />
       </div>
     );
   }

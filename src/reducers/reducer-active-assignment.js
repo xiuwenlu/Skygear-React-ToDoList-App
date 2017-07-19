@@ -5,9 +5,8 @@
 export default function(state=null, action) {
     // need to give this a default value to prevent generating erros
     switch(action.type) {
-        case 'USER_SELECTED':
+        case 'ASSIGNMENT_SELECTED':
             return action.payload;
-            break;
     }
         return state;
 }
