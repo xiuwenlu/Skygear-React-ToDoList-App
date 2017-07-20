@@ -7,4 +7,15 @@ export const selectAssignment = (assignment) => {
     };
 };
 
-
+export const signupSelected = (username, password, passwordConf) => {
+    return {
+        type: 'SIGNUP_SELECTED',
+        payload: username, password, passwordConf
+    };
+};
+export const loginSelected = (username, password) => {
+    return {
+        type: 'LOGIN_SELECTED',
+        payload: username, password
+    };
+};
